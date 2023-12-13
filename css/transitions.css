@@ -44,3 +44,12 @@
   background-color: darkslategray;
   color: white;
 }
+
+#ex06 .box {
+  transition-property: background-color;
+  transition-duration: 0.5s;
+}
+
+#ex06 .wrapper:hover {
+  background-color: darkslategray;
+}

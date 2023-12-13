@@ -15,3 +15,13 @@
 #ex02 .box:hover {
   background-color: darkslategray;
 }
+
+#ex03 .box {
+  transition-property: background-color;
+  transition-duration: 0.5s;
+  transition-delay: 0.2s;
+}
+
+#ex03 .box:hover {
+  background-color: darkslategray;
+}

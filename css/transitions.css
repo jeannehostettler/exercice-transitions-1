@@ -1,0 +1,8 @@
+#ex01 .box {
+  transition-property: color;
+  transition-duration: 0.2s;
+}
+
+#ex01 .box:hover {
+  background-color: darkslategray;
+}

@@ -6,3 +6,12 @@
 #ex01 .box:hover {
   background-color: darkslategray;
 }
+
+#ex02 .box {
+  transition-property: background-color;
+  transition-duration: 0.5s;
+}
+
+#ex02 .box:hover {
+  background-color: darkslategray;
+}

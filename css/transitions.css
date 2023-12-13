@@ -25,3 +25,13 @@
 #ex03 .box:hover {
   background-color: darkslategray;
 }
+
+#ex04 .box {
+  transition-property: background-color, color;
+  transition-duration: 0.5s;
+}
+
+#ex04 .box:hover {
+  background-color: darkslategray;
+  color: white;
+}

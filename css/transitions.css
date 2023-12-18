@@ -50,6 +50,6 @@
   transition-duration: 0.5s;
 }
 
-#ex06 .wrapper:hover {
+#ex06 .wrapper:hover .box {
   background-color: darkslategray;
 }

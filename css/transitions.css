@@ -111,3 +111,12 @@
 #ex10 .box:hover {
   transform: translateY(19%);
 }
+
+#ex11 .box {
+  transition-property: transform;
+  transition-duration: 0.3s;
+}
+
+#ex11 .box:hover {
+  transform: rotate(90deg);
+}

@@ -77,7 +77,7 @@
 }
 
 #ex08 .wrapper .box {
-  transition-property: background-color, color;
+  transition-property: background-color;
   transition-duration: 0.5s;
 }
 
@@ -87,4 +87,18 @@
 
 #ex08 .wrapper:hover .box {
   background-color: antiquewhite;
+}
+
+#ex09 .wrapper .box {
+  transition-property: background-color;
+  transition-duration: 0.5s;
+}
+
+#ex09 .wrapper:hover {
+  background-color: darkslategray;
+}
+
+#ex09 .wrapper:hover .box {
+  background-color: antiquewhite;
+  transition-delay: 0.2s;
 }

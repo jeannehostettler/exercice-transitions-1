@@ -102,3 +102,12 @@
   background-color: antiquewhite;
   transition-delay: 0.2s;
 }
+
+#ex10 .box {
+  transition-property: transform;
+  transition-duration: 0.3s;
+}
+
+#ex10 .box:hover {
+  transform: translateY(19%);
+}

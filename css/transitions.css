@@ -120,3 +120,12 @@
 #ex11 .box:hover {
   transform: rotate(90deg);
 }
+
+#ex12 .box {
+  transition-property: transform;
+  transition-duration: 0.5s;
+}
+
+#ex12 .box:hover {
+  transform: scale(120%);
+}

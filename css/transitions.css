@@ -75,3 +75,16 @@
 #ex07 .wrapper:hover .box {
   background-color: darkslategray;
 }
+
+#ex08 .wrapper .box {
+  transition-property: background-color, color;
+  transition-duration: 0.5s;
+}
+
+#ex08 .wrapper:hover {
+  background-color: darkslategray;
+}
+
+#ex08 .wrapper:hover .box {
+  background-color: antiquewhite;
+}
